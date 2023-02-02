@@ -20,6 +20,11 @@ if (obj?.lehrerStamm.geburtsdatum != null) {
 
 ![image](https://user-images.githubusercontent.com/54348970/216435367-7b57d34b-316d-4e88-9a60-000f614cf39c.png)
 
+## Usage
+```
+python3 asv2vcard.py export.csv
+
+
 
 This script is based on the following script:
 
