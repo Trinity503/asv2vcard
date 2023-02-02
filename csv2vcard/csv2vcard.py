@@ -19,12 +19,17 @@ def test_csv2vcard():
     Try it out with this mock Forrest Gump contact
     """
     mock_contacts = [{
-        "last_name": "Gump", "first_name": "Forrest", "title": "Shrimp Man",
-        "org": "Bubba Gump Shrimp Co.",
-        "phone": "+49 170 5 25 25 25", "email": "forrestgump@example.com",
-        "website": "https://www.linkedin.com/in/forrestgump",
-        "street": "42 Plantation St.", "city": "Baytown", "p_code": "30314",
-        "country": "United States of America"
+        "Familienname": "Gump", 
+        "Rufname": "Forrest", 
+        #"title": "Shrimp Man",
+        #"org": "Bubba Gump Shrimp Co.",
+        "Telefonnummer": "+49 123 45678",
+        "Handynummer": "+49 170 5 25 25 25", 
+        "E-Mail": "forrestgump@example.com",
+        #"website": "https://www.linkedin.com/in/forrestgump",
+        #"street": "42 Plantation St.", "city": "Baytown", "p_code": "30314",
+        #"country": "United States of America",
+        "Skript 6": "1930-01-01"
     }]
     check_export()
     vcard = create_vcard(mock_contacts[0])
